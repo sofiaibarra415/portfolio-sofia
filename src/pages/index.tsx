@@ -205,7 +205,15 @@ export default function Home() {
           <Title title="About Me" subtitle="A bit about me" />
           <div className="md:pt-16 pt-8 flex flex-col items-center">
             <p className="text-center px-8 max-w-3xl">
-            hola
+              I have been studying the world of Front-End web development
+              for 3 years. I am currently studying a Bachelors Degree in
+              Computer Science, which gives me a solid foundation in programming
+              fundamentals, algorithms and data structures. I finished my secondary
+              studies last year, but I had the possibility of accessing different courses
+              during my school years. This has allowed me to develop good skills in languages like
+              Javascript and libraries such as React Js. I continue to complement my
+              academic training with specialized courses in technologies such as React.js,
+              JavaScript, Node.js and Angular.
             </p>
             <div>
               {disabled === false ? (
@@ -296,7 +304,7 @@ export default function Home() {
               description="I am the developer and designer behind this live website. It is an e-commerce site that allows the user to view all products according to their categories, add them to the cart, and then proceed with the purchase. It was created with WordPress for a client from Uruguay."
               img="images/freyja.png"
               onLiveClick={() => window.open("https://freyja.com.uy/")}
-              onCodeClick={() => {}}
+              onCodeClick={() => { }}
             />
             <Card
               title="Checkout Pro Integration"
