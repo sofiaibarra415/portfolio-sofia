@@ -205,7 +205,7 @@ export default function Home() {
           <Title title="About Me" subtitle="A bit about me" />
           <div className="md:pt-16 pt-8 flex flex-col items-center">
             <p className="text-center px-8 max-w-3xl">
-            I have been studying the world of Front-End web development for 3 years. I am currently studying a Bachelor's Degree in Computer Science, which gives me a solid foundation in programming fundamentals, algorithms and data structures. I finished my secondary studies last year, but I had the possibility of accessing different courses during my school years. This has allowed me to develop good skills in languages.
+            hola
             </p>
             <div>
               {disabled === false ? (
