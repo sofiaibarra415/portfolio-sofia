@@ -17,11 +17,11 @@ export default function Footer() {
           />
         </Link>
         <div className="hidden text-grey md:flex md:flex-row">
-          <Link href="mailto:luciaespana25@gmail.com" target="_blank">
+          <Link href="mailto:sofiaibarra415@gmail.com" target="_blank">
             <EnvelopeSimple size={28} className="ml-8" />
           </Link>
           <Link
-            href="https://api.whatsapp.com/send?phone=541130900186&text=Hi!%20I%20saw%20your%20profile..."
+            href="https://api.whatsapp.com/send?phone=541150514028&text=Hi!%20I%20saw%20your%20profile..."
             target="_blank"
           >
             <ChatCircle size={26} className="ml-8" />
@@ -36,7 +36,7 @@ export default function Footer() {
             color: "transparent",
           }}
         >
-          <p>Built by Lucía España :)</p>
+          <p>Built by Sofía Ibarra :)</p>
         </div>
       </div>
     </div>

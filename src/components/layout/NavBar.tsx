@@ -35,12 +35,12 @@ export default function NavBar() {
               <li className="text-base ml-10">Projects</li>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/lucia-espana/"
+              href="https://www.linkedin.com/in/sofia-carolina-ibarra/"
               target="_blank"
             >
               <LinkedinLogo size={25} className="ml-10" />
             </Link>
-            <Link href="https://github.com/luespana" target="_blank">
+            <Link href="https://github.com/sofiaibarra415" target="_blank">
               <GithubLogo size={25} className="ml-8" />
             </Link>
           </ul>

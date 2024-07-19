@@ -10,10 +10,10 @@ type CardProps = {
   title: string;
   description: string;
   img:
-    | "images/weather.png"
+    | "images/crossfit.png"
     | "images/doggo.png"
-    | "images/star-wars.png"
-    | "images/filmfinity.png"
+    | "images/sushi.png"
+    | "images/oldportfolio.png"
     | "images/paloma.png"
     | "images/mercado.png"
     | "images/freyja.png";
