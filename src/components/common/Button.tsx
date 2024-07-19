@@ -10,7 +10,7 @@ export default function Button({ label, onClick }: ButtonProps) {
     <button
       onClick={(e) => onClick(e)}
       style={{
-        background: "linear-gradient(to right, #9F7AEA, #D53F8C)",
+        background: "linear-gradient(to right, #7AAEEA, #7AEABB)",
         color: "white",
       }}
       className="p-3 rounded-3xl"

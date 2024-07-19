@@ -29,7 +29,7 @@ export default function Home() {
           "template_2d3kytx",
           {
             user_email: email,
-            reply_to: "luciaespana25@gmail.com",
+            reply_to: "sofiaibarra415@gmail.com",
           },
           "VEyYzcHpXTzu8HCtK"
         )
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="text-center">
           <div
             style={{
-              background: "linear-gradient(to right, #9F7AEA, #D53F8C)",
+              background: "linear-gradient(to right, #7AAEEA, #7AEABB)",
               WebkitBackgroundClip: "text",
               color: "transparent",
             }}
@@ -234,7 +234,7 @@ export default function Home() {
                   <span
                     className="text-xl font-semibold"
                     style={{
-                      background: "linear-gradient(to right, #9F7AEA, #D53F8C)",
+                      background: "linear-gradient(to right, #7AAEEA, #7AEABB)",
                       WebkitBackgroundClip: "text",
                       color: "transparent",
                     }}

@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="md:flex md:flex-row items-center">
         <div
           style={{
-            background: "linear-gradient(to right, #9F7AEA, #D53F8C)",
+            background: "linear-gradient(to right, #7AAEEA, #7AEABB)",
             WebkitBackgroundClip: "text",
             color: "transparent",
           }}

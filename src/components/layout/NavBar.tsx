@@ -105,12 +105,12 @@ export default function NavBar() {
             </Link>
             <div className="flex justify-start py-4">
               <Link
-                href="https://www.linkedin.com/in/lucia-espana/"
+                href="https://www.linkedin.com/in/sofia-carolina-ibarra/"
                 target="_blank"
               >
                 <LinkedinLogo size={25} />
               </Link>
-              <Link href="https://github.com/luespana" target="_blank">
+              <Link href="https://github.com/sofiaibarra415" target="_blank">
                 <GithubLogo size={25} className="ml-6" />
               </Link>
             </div>
