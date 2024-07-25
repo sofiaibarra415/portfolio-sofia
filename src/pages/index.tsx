@@ -265,7 +265,7 @@ export default function Home() {
             <Card
               title="Sakura Sushi House"
               description="Sakura Sushi House brings the finest sushi directly to your doorstep. This web application allows users to explore an extensive menu of fresh sushi rolls. With user-friendly navigation and secure transactions, Sakura Sushi House ensures a delightful and hassle-free ordering experience for all sushi enthusiasts."
-              img="images/sushi.png"
+              img="images/sushi.svg"
               onLiveClick={() =>
                 window.open("https://sakura-sushi-orcin.vercel.app/")
               }

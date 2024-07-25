@@ -12,7 +12,7 @@ type CardProps = {
   img:
     | "images/crossfit.png"
     | "images/doggo.png"
-    | "images/sushi.png"
+    | "images/sushi.svg"
     | "images/old-portfolio.svg"
     | "images/paloma.png"
     | "images/mercado.png"
