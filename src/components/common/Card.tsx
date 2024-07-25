@@ -13,10 +13,10 @@ type CardProps = {
     | "images/crossfit.png"
     | "images/doggo.png"
     | "images/sushi.png"
-    | "images/oldportfolio.png"
+    | "images/old-portfolio.svg"
     | "images/paloma.png"
     | "images/mercado.png"
-    | "images/freyja.png";
+    | "images/tecnica.svg";
   onLiveClick: React.MouseEventHandler<HTMLButtonElement>;
   onCodeClick: React.MouseEventHandler<HTMLButtonElement>;
 };

@@ -144,8 +144,8 @@ export default function Home() {
                 <ul className="flex flex-row items-center justify-evenly pt-8 gap-12 sm:gap-24 md:pt-12 md:gap-16">
                   <li>
                     <Image
-                      src="/images/angular.png"
-                      alt="angular"
+                      src="/images/webflow.webp"
+                      alt="Webflow"
                       width={70}
                       height={70}
                     />
@@ -253,7 +253,7 @@ export default function Home() {
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 justify-items-center pt-8 md:pt-16 px-6">
             <Card
               title="Crossfit Eccomerce"
-              description="The Weather App is a web application designed to provide users with up-to-date weather information for a specified location. Users can easily check the current weather conditions, temperature, humidity, and other relevant details for a chosen city. "
+              description="CrossFit Essentials App is a web application designed to offer users a wide variety of crossfit products. Users can browse and purchase high-quality items such as clothing, accessories, and specialized equipment. The platform ensures easy and secure navigation, providing a comfortable and efficient shopping experience for crossfit enthusiasts."
               img="images/crossfit.png"
               onLiveClick={() =>
                 window.open("https://crossfit-essentials.vercel.app/")
@@ -264,7 +264,7 @@ export default function Home() {
             />
             <Card
               title="Sakura Sushi House"
-              description="The Star Wars Encyclopedia is a comprehensive online resource that provides information about characters, planets, and events from the Star Wars universe. Detailed character information is obtained by integrating an external Star Wars API."
+              description="Sakura Sushi House brings the finest sushi directly to your doorstep. This web application allows users to explore an extensive menu of fresh sushi rolls. With user-friendly navigation and secure transactions, Sakura Sushi House ensures a delightful and hassle-free ordering experience for all sushi enthusiasts."
               img="images/sushi.png"
               onLiveClick={() =>
                 window.open("https://sakura-sushi-orcin.vercel.app/")
@@ -277,8 +277,8 @@ export default function Home() {
             />
             <Card
               title="An old Portfolio"
-              description="This project showcases my skills in front-end development using React.js and my ability to integrate real-time data management with Firebase. The website offers a user-friendly experience, allowing users to explore, purchase, and interact with a diverse catalog of films."
-              img="images/oldportfolio.png"
+              description="This project showcases my skills in front-end development using JavaScript, CSS, and HTML. The website offers a seamless and engaging experience, allowing visitors to explore my professional background, view my portfolio projects, and get in touch with me easily."
+              img="images/old-portfolio.svg"
               onLiveClick={() =>
                 window.open("https://sofiaibarra.vercel.app/")
               }
@@ -300,10 +300,10 @@ export default function Home() {
               }
             />
             <Card
-              title="Freyja"
-              description="I am the developer and designer behind this live website. It is an e-commerce site that allows the user to view all products according to their categories, add them to the cart, and then proceed with the purchase. It was created with WordPress for a client from Uruguay."
-              img="images/freyja.png"
-              onLiveClick={() => window.open("https://freyja.com.uy/")}
+              title="Técnica"
+              description="I am the developer and designer behind this website. It is the start of a goggles e-commerce site. This site offers an eye-catching design for entering users. It was created with Webflow."
+              img="images/tecnica.svg"
+              onLiveClick={() => window.open("https://sofias-fresh-site-fc0c9f.webflow.io/")}
               onCodeClick={() => { }}
             />
             <Card
