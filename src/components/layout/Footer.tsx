@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="bg-white w-full h-36 flex items-center justify-around shadow-2xl mt-6">
+    <div className="bg-bg-surface w-full h-36 flex items-center justify-around border-t border-border mt-6">
       <div className="flex flex-row justify-between items-center">
-        <Link href="">
+        <Link href="/#home">
           <Image
             src="/images/logo.png"
             className="p-4"
@@ -16,28 +16,28 @@ export default function Footer() {
             height={70}
           />
         </Link>
-        <div className="hidden text-grey md:flex md:flex-row">
+        <div className="hidden text-ink-muted md:flex md:flex-row">
           <Link href="mailto:sofiaibarra415@gmail.com" target="_blank">
-            <EnvelopeSimple size={28} className="ml-8" />
+            <EnvelopeSimple
+              size={28}
+              className="ml-8 hover:text-ink transition-colors"
+            />
           </Link>
           <Link
             href="https://api.whatsapp.com/send?phone=541150514028&text=Hi!%20I%20saw%20your%20profile..."
             target="_blank"
           >
-            <ChatCircle size={26} className="ml-8" />
+            <ChatCircle
+              size={26}
+              className="ml-8 hover:text-ink transition-colors"
+            />
           </Link>
         </div>
       </div>
       <div className="md:flex md:flex-row items-center">
-        <div
-          style={{
-            background: "linear-gradient(to right, #7AAEEA, #7AEABB)",
-            WebkitBackgroundClip: "text",
-            color: "transparent",
-          }}
-        >
-          <p>Built by Sofía Ibarra :)</p>
-        </div>
+        <p className="font-display bg-gradient-to-r from-iris to-spring bg-clip-text text-transparent">
+          Built by Sofía Ibarra :)
+        </p>
       </div>
     </div>
   );

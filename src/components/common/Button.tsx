@@ -9,11 +9,7 @@ export default function Button({ label, onClick }: ButtonProps) {
   return (
     <button
       onClick={(e) => onClick(e)}
-      style={{
-        background: "linear-gradient(to right, #7AAEEA, #7AEABB)",
-        color: "white",
-      }}
-      className="p-3 rounded-3xl"
+      className="px-6 py-3 rounded-full bg-gradient-to-r from-iris to-spring text-bg font-display font-medium transition-transform hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-iris focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
     >
       {label}
     </button>

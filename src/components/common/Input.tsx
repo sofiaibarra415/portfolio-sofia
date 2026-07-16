@@ -17,7 +17,7 @@ export default function Input({
     <input
       type={type}
       placeholder={placeholder}
-      className="bg-light rounded-3xl p-1.5 pl-4 text-blue min-w-[320px] outline-none caret-bluep"
+      className="bg-bg-surface border border-border rounded-full py-3 pl-5 pr-4 text-ink min-w-[280px] sm:min-w-[320px] outline-none caret-iris placeholder:text-ink-faint focus-visible:ring-2 focus-visible:ring-iris transition-shadow"
       onChange={(e) => {
         onChange(e.target.value);
       }}
